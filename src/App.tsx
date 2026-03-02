@@ -92,7 +92,7 @@ const EventCard = ({ image, title, date, location, status, progress, opacity = "
 
 export default function App() {
   return (
-    <div className="relative flex min-h-screen w-full flex-col overflow-x-hidden pb-24 dark">
+    <div className="relative flex min-h-screen w-full flex-col overflow-x-hidden pb-24">
       {/* Header */}
       <header className="sticky top-0 z-10 flex items-center bg-background-light/80 dark:bg-background-dark/80 ios-blur p-4 justify-between border-b border-slate-200 dark:border-slate-800">
         <div className="flex size-10 shrink-0 items-center">
